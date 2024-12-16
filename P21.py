@@ -1,0 +1,6 @@
+from os import system
+system("cls")
+for i in range(5):
+    result=input("name:").title()
+    age=input("how old are you ?").title()
+    print(f"the user {result} {age} years old  like number:{i}")

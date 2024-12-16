@@ -1,0 +1,4 @@
+parsa=0
+while parsa < 10:
+    parsa=parsa+1
+    print(f"parsa: {parsa}")

@@ -1,0 +1,22 @@
+from turtle import fd,lt,penup,pendown,done
+from os import system
+system("Cls")
+for x in range(4):
+    fd(100)
+    lt(90)
+penup()
+fd(120)
+pendown()
+for x in range(4):
+    fd(50)
+    lt(90)
+penup()
+fd(100)
+pendown()
+for x in range(4):
+    fd(10)
+    lt(90)
+penup()
+fd(90)
+pendown()
+done()

@@ -1,0 +1,16 @@
+from os import system
+system("cls")
+for i in range(5):
+    number1=int(10)
+    number2=int(2)
+    result1=number1+number2
+    print("10+2 ? :")
+    input("result1:")
+    number3=int(13)
+    number4=int(5)
+    result2=number3-number4
+    print("13-5 ? :")
+    input("result2:")
+    print(result1)
+    print(result2)
+    print(i)
